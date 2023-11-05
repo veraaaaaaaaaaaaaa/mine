@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+  font-weight: 500;
+}
+
+.container, .collection {
+	max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+main {
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #a1a6b4;
+  background-color: white;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+	width: 370px;
+}
+body {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+}
+.sneaker__cards {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1290px;
+	width: 90%;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 212.34px;
+  height: 63.24px;
+
+}
+.sneaker__card {
+  border-radius: 12px;
+}
+  .header__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul__one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  width: 347.26px;
+  height: 26.4;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 25px;
+}
+.collection__text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 767px;
+  font-family: 'Anonymous Pro', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 24px 0;
+}
+.sneaker__cards {
+  display: flex; 
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.sneaker__card {
+  max-width: 370px;
+  border-radius: 12px;
+  background-color: white;
+}
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.container__title {
+  width: 323px;
+  color: black;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.container__text {
+  color: black;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.container__cont {
+  padding: 32px 24px;
+
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+.footer__line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(230, 232, 236, 0.4);
+}
+.footer__down {
+  font-family: 'Anonymous Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 18px 0 21px;
+  color: #a1a6b4;
+}
+.footer__container {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  padding: 24px;
+}
+.container__image {
+  border-radius: 12px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.ul__two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 299.65px;
+  height: 22.32px;
+}
